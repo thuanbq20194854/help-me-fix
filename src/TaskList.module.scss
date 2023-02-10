@@ -1,0 +1,28 @@
+.taskRow {
+  display: flex;
+  align-items: center;
+}
+
+.taskCheckbox {
+  flex: 0 0 10%;
+  max-width: 10%;
+}
+.taskName {
+  flex: 0 0 70%;
+  max-width: 70%;
+
+  font-size: 1.5rem;
+}
+.taskActions {
+  flex: 0 0 20%;
+  max-width: 20%;
+
+  display: flex;
+  justify-content: space-between;
+}
+.editButton {
+  font-size: 1.5rem;
+}
+.deleteButton {
+  font-size: 1.5rem;
+}
